@@ -1,9 +1,9 @@
-// Read and print elements of a one-dimensional array.
+//Find the sum of array elements.
 
 #include <stdio.h>
 int main()
 {
-    int n, i;
+    int n, i, sum = 0;
 
     printf("Enter the number of elements in the array: ");
     scanf("%d", &n);
@@ -16,12 +16,12 @@ int main()
         scanf("%d", &arr[i]);
     }
 
-    printf("The elements in the array are:\n");
     for (i = 0; i < n; i++)
     {
-        printf("%d ", arr[i]);
+        sum += arr[i];
     }
-    printf("\n");
+
+    printf("The sum of the array elements is: %d\n", sum);
 
     return 0;
 }

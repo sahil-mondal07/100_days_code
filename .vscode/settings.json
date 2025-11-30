@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "Q9_CODE.C": "cpp"
+        "Q9_CODE.C": "cpp",
+        "Q09_CODE.C": "cpp"
     }
 }
